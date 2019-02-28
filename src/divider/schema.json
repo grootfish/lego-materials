@@ -1,0 +1,60 @@
+{
+  "formData": {
+      "data": {
+          "group": "模块数据配置",
+          "title": "列表商品-档位配置_h5档位(建议每个档位数据不要超过100个)",
+          "fields": [
+              {
+                  "name": "level",
+                  "title": "tab档位",
+                  "type": "text"
+              },
+              {
+                  "name": "imgTag",
+                  "title": "档位左上图标",
+                  "type": "image",
+                  "lazyLoad": true
+              }
+          ],
+          "minRow": 1,
+          "maxRow": 3,
+          "importType": 1,
+          "models": [
+              {
+                  "size": "80",
+                  "sourceType": "mce",
+                  "level": "69",
+                  "imgTag": "https://s10.mogucdn.com/mlcdn/c45406/180424_4cgi41fc1b8a6bkjl61e4e3gkc7gd_72x80.jpg",
+                  "sourceKey-bak": "107334",
+                  "maitTemplateIDs": "338",
+                  "maitTemplateID": "338",
+                  "request-self": true
+              },
+              {
+                  "size": "80",
+                  "sourceType": "mce",
+                  "level": "119",
+                  "imgTag": "https://s10.mogucdn.com/mlcdn/c45406/180424_4c5a097jk20k118jde57ccj1ke8dc_72x80.jpg",
+                  "sourceKey-bak": "107335",
+                  "maitTemplateIDs": "338",
+                  "maitTemplateID": "338",
+                  "request-self": true
+              },
+              {
+                  "size": "80",
+                  "sourceType": "mce",
+                  "level": "219",
+                  "imgTag": "https://s10.mogucdn.com/mlcdn/c45406/180424_8b5lfflggi5i8h0d15i28k324c88j_72x80.jpg",
+                  "sourceKey-bak": "107336",
+                  "maitTemplateIDs": "338",
+                  "maitTemplateID": "338",
+                  "request-self": true
+              }
+          ]
+      }
+  },
+  "staticData": {},
+  "pluginData": {},
+  "transform": null,
+  "sourceModuleId": "656825"
+}

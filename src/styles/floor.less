@@ -1,0 +1,31 @@
+@import "common/index";
+@import "mixins/index";
+@floor-prefix-cls: ~"@{css-prefix}floor";
+
+.@{floor-prefix-cls} {
+  &-head{
+    img{
+      width: 114px;
+      height: 32px;
+    }
+    .sub-title{
+      display: inline-block;
+      font-size: 18px;
+      line-height: 25px;
+      color: #bbb;
+      text-align: center;
+      vertical-align: super;
+      margin: 0 0 4px 1px;
+    }
+  }
+
+  .link-more{
+    float: right;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    letter-spacing: 0;
+    text-align: right;
+    margin-top: 14px;
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "formData": {
+      "data": {
+          "group": "模块数据配置",
+          "title": "卡片样式设置",
+          "fields": [
+              {
+                "name": "title",
+                "title": "卡片头部title",
+                "type": "string"
+              },{
+                "name":"disHover",
+                "title":"是否hover展示阴影",
+                "type":"radio"
+              },{
+                "name":"bordered",
+                "title":"是否展示边框",
+                "type":"radio"
+              },{
+                "name":"padding",
+                "title":"卡片内边距",
+                "type":"number"
+              }
+          ],
+          "minRow": 1,
+          "maxRow": 3,
+          "importType": 1,
+          "models": [
+              {
+                "title":"卡片展示",
+                "disHover":false,
+                "bordered":true,
+                "padding":16
+              }
+          ]
+      }
+  },
+  "staticData": {},
+  "pluginData": {},
+  "transform": null,
+  "sourceModuleId": "656825"
+}
